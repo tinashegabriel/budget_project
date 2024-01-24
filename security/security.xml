@@ -1,0 +1,15 @@
+<odoo>
+	<record model="ir.module.category" id="budget_project_management">
+		<field name="name">Budget</field>
+		<field name="description">Helps you handle budget rights</field>
+	</record>
+	<record id="group_user" model="res.groups">
+		<field name="name">Budget User</field>
+		<field name="category_id" ref="budget_project_management"/>
+	</record>
+	<record id="group_admin" model="res.groups">
+		<field name="name">Budget Admin</field>
+		<field name="category_id" ref="budget_project_management"/>
+		<field name="implied_ids" eval="[(6,0,[ref('group_user')])]"/>
+	</record>
+</odoo>
