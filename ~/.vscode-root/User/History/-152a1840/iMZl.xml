@@ -1,0 +1,98 @@
+<odoo>
+  <data>
+  <record id="view_budget_tree" model="ir.ui.view">
+        <field name="name">budget.tree</field>
+        <field name="model">budget.project</field>
+        <field name="arch" type="xml">
+            <tree string="Users">
+                <field name="employee_id" />
+                <field name="department_id" />
+                <field name="notes" />
+                 <field name="amount" />
+                 <field name="balance" />
+            </tree>
+        </field>
+    </record>
+   <!--    view definition for form-->
+    <record id="view_budget_form" model="ir.ui.view">
+      <field name="name">budget.form</field>
+      <field name="model">budget.project</field>
+      <field name="arch" type="xml">
+        <form>
+            <header>
+                <button name="requisition_confirm" type="object" string="Confirm" invisible="state not in ['draft',]"  class="btn-primary" groups="budget_project.group_user"/>
+                <button name="manager_approve" type="object" string="Department Approve" invisible="state not in ['dept_confirm','cancel']" class="btn-primary" groups="budget_project.group_admin"/>
+                <button name="user_approve" type="object" string="Approve" invisible="state not in ['ir_approve']" class="btn-primary" groups="budget_project.group_admin"/>
+                 <button name="requisition_reject" type="object" string="Reject" groups="budget_project.group_admin" invisible="state not in ['dept_confirm','ir_approve']"/>
+                <button name="action_cancel" type="object" invisible="state not in ['draft']"  string="Cancel" groups="budget_project.group_user"/>
+                <button name="reset_draft" type="object" string="Reset to Draft" invisible="state not in ['cancel','reject','receive']"  class="btn-primary" groups="budget_project.group_user"/>  
+                <field name="state" widget="statusbar" string="confirm" statusbar_visible="draft,dept_confirm,ir_approve,approve,stock,receive"/>
+            </header>
+
+            <sheet>
+              <group>
+                <group>
+                  <field name="employee_id"/>
+                  <field name="department_id" />
+                </group>
+                <group>
+                  <field name="start_date"/>
+                  <field name="end_date"/>
+                  <field name="amount"/>
+                  <field name="balance"/>
+                </group>
+              </group>
+              <notebook>
+                <page string= "Notes">
+                <field name="notes"/>
+                </page>
+                <page string="Other Information">
+                  <group>
+                      <group>
+                          <field name="employee_confirm_id"/>
+                          <field name="approve_manager_id"/>
+                          <field name="approve_employee_id"/>
+                          <field name="reject_employee_id"/>
+                      </group>
+                      <group>
+                          <field name="confirm_date"/>
+                          <field name="managerapp_date"/>
+                          <field name="userrapp_date"/>
+                          <field name="userreject_date"/>
+                      </group>
+                  </group>
+              </page>
+
+              </notebook>
+            </sheet>
+            <div class="oe_chatter">
+                <field name="message_follower_ids" />
+                <field name="activity_ids" />
+                <field name="message_ids" />
+            </div>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="budget_expenses_view">
+      <field name="name">budget_expense form</field>
+      <field name="model">hr.expense.sheet</field>
+      <field name="inherit_id" ref="hr_expense.view_hr_expense_sheet_form"/>
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='employee_journal_id']" position="after">
+            <field name="budget_id" />
+          </xpath>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="budget_action_window">
+      <field name="name">Budget</field>
+      <field name="res_model">budget.project</field>
+      <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+   <!-- Top menu item -->
+  <menuitem name="Budget" id="budget_project.menu_root" sequence = "10" action="budget_action_window"/>
+  </data>
+</odoo>

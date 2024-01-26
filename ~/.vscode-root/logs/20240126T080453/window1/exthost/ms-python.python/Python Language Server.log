@@ -1,0 +1,16 @@
+2024-01-26 09:05:00.902 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2024-01-26 09:05:02.991 [info] [Info  - 09:05:02] (241060) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2024-01-26 09:05:02.995 [info] [Info  - 09:05:02] (241060) Server root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2024-01-26 09:05:03.000 [info] [Info  - 09:05:03] (241060) Starting service instance "budget_project"
+2024-01-26 09:05:03.264 [info] [Info  - 09:05:03] (241060) Setting pythonPath for service "budget_project": "/bin/python3"
+2024-01-26 09:05:03.268 [info] [Info  - 09:05:03] (241060) Setting environmentName for service "budget_project": "3.10.12 (global)"
+2024-01-26 09:05:03.388 [info] [Info  - 09:05:03] (241060) Assuming Python version 3.10
+2024-01-26 09:05:03.797 [info] [Info  - 09:05:03] (241060) Found 6 source files
+2024-01-26 09:05:13.758 [info] [Info  - 09:05:13] (241060) [BG(1)] Long operation: checking: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py (4739ms)
+2024-01-26 09:05:13.759 [info] [Info  - 09:05:13] (241060) [BG(1)] Long operation: analyzing: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py (6857ms)
+2024-01-26 09:05:15.527 [info] [Info  - 09:05:15] (241060) [IDX(2)] Long operation: scan packages /opt/odoo17/odoo-custom-addons/budget_project (6578ms)
+2024-01-26 09:05:18.536 [info] [Info  - 09:05:18] (241060) [BG(1)] Long operation: checking: /opt/odoo17/odoo/addons/hr_expense/models/hr_expense_sheet.py (2646ms)
+2024-01-26 09:05:18.537 [info] [Info  - 09:05:18] (241060) [BG(1)] Long operation: analyzing: /opt/odoo17/odoo/addons/hr_expense/models/hr_expense_sheet.py (3102ms)
+2024-01-26 09:05:18.900 [info] [Info  - 09:05:18] (241060) [IDX(2)] Long operation: indexing: /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist/typeshed-fallback/stubs/Pillow/PIL/__init__.pyi (2344ms)
+2024-01-26 09:05:22.056 [info] [Info  - 09:05:22] (241060) [IDX(2)] Long operation: index execution environment /opt/odoo17/odoo-custom-addons/budget_project (5772ms)
+2024-01-26 09:05:22.091 [info] [Info  - 09:05:22] (241060) [IDX(2)] Long operation: index packages /opt/odoo17/odoo-custom-addons/budget_project (5844ms)

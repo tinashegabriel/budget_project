@@ -74,6 +74,17 @@
       </field>
     </record>
 
+    <record model="ir.ui.view" id="budget_expenses_view">
+      <field name="name">budget_expense form</field>
+      <field name="model">hr.expense.sheet</field>
+      <field name="inherit_id" ref="hr_expense.view_hr_expense_sheet_form"/>
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='employee_journal_id']" position="after">
+            <field name="budget_id" />
+          </xpath>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="budget_action_window">
       <field name="name">Budget</field>
@@ -82,6 +93,6 @@
     </record>
 
    <!-- Top menu item -->
-  <menuitem name="Budget" id="budget_project.menu_root" sequence = "10" action="budget_action_window"/>
+  <menuitem name="Budget" id="budget_project.menu_root" sequence = "10" action="budget_action_window" web_icon="budget_project,static/src/img/icon.png"/>
   </data>
 </odoo>

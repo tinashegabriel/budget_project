@@ -1,0 +1,30 @@
+2024-01-26 09:03:46.848 [info] Getting Manifest... ms-python.python
+2024-01-26 09:03:46.853 [info] Getting Manifest... ms-python.python
+2024-01-26 09:03:46.927 [info] Installing extension: ms-python.python
+2024-01-26 09:03:47.054 [info] Extensions is already requested to install ms-python.python
+2024-01-26 09:03:48.887 [info] Getting Manifest... ms-python.vscode-pylance
+2024-01-26 09:03:50.415 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2024-01-26 09:04:05.490 [info] Extension signature is verified: ms-python.python
+2024-01-26 09:04:21.030 [info] Extracted extension to file:///root/.vscode/extensions/ms-python.python-2023.22.1: ms-python.python
+2024-01-26 09:04:21.043 [info] Renamed to /root/.vscode/extensions/ms-python.python-2023.22.1
+2024-01-26 09:04:21.074 [info] Extracting extension completed. ms-python.python
+2024-01-26 09:04:21.261 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-26 09:04:34.329 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-01-26 09:04:51.657 [info] Extracted extension to file:///root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1: ms-python.vscode-pylance
+2024-01-26 09:04:51.666 [info] Renamed to /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1
+2024-01-26 09:04:51.681 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-01-26 09:04:51.716 [info] Extension installed successfully: ms-python.python
+2024-01-26 09:04:51.717 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-01-26 09:04:51.790 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/snap/code/149/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)

@@ -1,0 +1,34 @@
+2024-01-26 09:04:56.782 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-01-26 09:04:56.782 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-26 09:04:56.782 [info] Experiment 'pythonSurveyNotification' is active
+2024-01-26 09:04:56.782 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-01-26 09:04:56.782 [info] Experiment 'pythonTestAdapter' is active
+2024-01-26 09:04:56.961 [info] Default formatter is set to null for workspace /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-26 09:04:57.056 [info] Test server listening.
+2024-01-26 09:04:57.127 [info] > conda info --json
+2024-01-26 09:04:58.113 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.116 [info] Found: /bin/python3 --> /bin/python3.10
+2024-01-26 09:04:58.120 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-26 09:04:58.122 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-26 09:04:58.277 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-01-26 09:04:58.286 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-01-26 09:04:58.421 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-26 09:04:58.493 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-26 09:04:58.727 [info] Send text to terminal: echo /usr/bin/bash
+2024-01-26 09:04:58.940 [info] Python interpreter path: /bin/python3
+2024-01-26 09:04:59.024 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-26 09:05:01.726 [info] Shell integration is not working for bash
+2024-01-26 09:05:01.731 [warning] Shell integration is not active, environment activated maybe overriden by the shell.
+2024-01-26 09:05:03.094 [info] Starting Pylance language server.
+2024-01-26 09:08:01.565 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py
+2024-01-26 09:11:40.097 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py
+2024-01-26 09:18:27.835 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py
+2024-01-26 09:21:38.087 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py

@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from odoo import models, fields, api,_
+from odoo.exceptions import UserError
+import logging,requests,datetime,hashlib,sys
+import json
+import logging
 BUDGET_STATE = [
     ('draft', 'New'),
         ('dept_confirm', 'Waiting Department Approval'),
@@ -17,12 +21,19 @@ class budget_project(models.Model):
     _description = 'Budget Module'
 
     name = fields.Char(string="Number", index=True, readonly=True)
+
     employee_id = fields.Many2one("hr.employee", string="Department Lead")
+
     department_id = fields.Many2one("hr.department", string="Department Name")
+
     amount = fields.Float(string="Budget Amount")
-    balance = fields.Float(string="Budget Balance")
+
+    balance = fields.Float(string="Budget Balance", readonly=True,)
+
     start_date = fields.Date(string="Start Date")
+
     end_date = fields.Date(string="Start Date")
+
     notes = fields.Text(string="Notes")
 
     state = fields.Selection(
@@ -152,3 +163,31 @@ class budget_project(models.Model):
         res = super(budget_project, self).create(vals)
         return res
     
+
+class budget_expenses(models.Model):
+    _inherit = 'hr.expense.sheet'
+
+    budget_id = fields.Many2one("budget.project", string="Budget", required=True,)
+
+    def action_approve_expense_sheets(self):
+        request_bugdet_validation = self.env['budget.project'].search([('id','=',self.budget_id.id)],order="id desc",limit=1)
+
+        if request_bugdet_validation.balance > self.total_amount:
+           new_balance = request_bugdet_validation.balance - self.total_amount
+
+           request_bugdet_validation.update({
+               'balance': new_balance,
+           })
+            
+        else:
+
+            raise UserError(_('You do not have sufficient balance from the budget'))
+            
+        self._check_can_approve()
+        self._validate_analytic_distribution()
+        duplicates = self.expense_line_ids.duplicate_expense_ids.filtered(lambda exp: exp.state in {'approved', 'done'})
+        if duplicates:
+            action = self.env["ir.actions.act_window"]._for_xml_id('hr_expense.hr_expense_approve_duplicate_action')
+            action['context'] = {'default_sheet_ids': self.ids, 'default_expense_ids': duplicates.ids}
+            return action
+        self._do_approve()
