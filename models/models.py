@@ -34,7 +34,7 @@ class budget_project(models.Model):
 
     start_date = fields.Date(string="Start Date")
 
-    end_date = fields.Date(string="Start Date")
+    end_date = fields.Date(string="End Date")
 
     notes = fields.Text(string="Notes")
 
