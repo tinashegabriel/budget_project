@@ -1,0 +1,18 @@
+2024-01-31 06:56:16.042 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-01-31 06:56:16.048 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-31 06:56:16.048 [info] Experiment 'pythonSurveyNotification' is active
+2024-01-31 06:56:16.048 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-01-31 06:56:16.048 [info] Experiment 'pythonTestAdapter' is active
+2024-01-31 06:56:17.006 [info] Default formatter is set to null for workspace /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:17.316 [info] Test server listening.
+2024-01-31 06:56:17.316 [info] Python interpreter path: /bin/python3
+2024-01-31 06:56:22.139 [info] Send text to terminal: echo /usr/bin/bash
+2024-01-31 06:56:25.168 [info] Shell integration is not working for bash
+2024-01-31 06:56:25.242 [warning] Shell integration is not active, environment activated maybe overriden by the shell.
+2024-01-31 06:56:30.577 [info] Starting Pylance language server.
+2024-01-31 07:00:02.226 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py
+2024-01-31 07:03:10.065 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/normalizeSelection.py
+2024-01-31 07:03:10.304 [info] Send text to terminal: /bin/python3
+2024-01-31 07:03:11.230 [info] Send text to terminal: import logging
+
+2024-01-31 07:05:24.696 [info] Discover tests for workspace name: budget_project - uri: /opt/odoo17/odoo-custom-addons/budget_project/models/models.py

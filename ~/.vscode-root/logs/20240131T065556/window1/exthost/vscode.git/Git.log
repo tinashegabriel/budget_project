@@ -1,0 +1,98 @@
+2024-01-31 06:56:22.522 [info] Log level: Info
+2024-01-31 06:56:22.522 [info] Validating found git in: "git"
+2024-01-31 06:56:22.522 [info] Using git "2.34.1" from "git"
+2024-01-31 06:56:22.522 [info] > git rev-parse --show-toplevel [2219ms]
+2024-01-31 06:56:22.522 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:22.522 [info] > git rev-parse --show-toplevel [377ms]
+2024-01-31 06:56:22.522 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:22.797 [info] > git rev-parse --show-toplevel [268ms]
+2024-01-31 06:56:22.797 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:22.876 [info] > git rev-parse --show-toplevel [27ms]
+2024-01-31 06:56:22.876 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.107 [info] > git rev-parse --show-toplevel [75ms]
+2024-01-31 06:56:23.110 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.272 [info] > git rev-parse --show-toplevel [35ms]
+2024-01-31 06:56:23.273 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.403 [info] > git rev-parse --show-toplevel [47ms]
+2024-01-31 06:56:23.404 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.534 [info] > git rev-parse --show-toplevel [7ms]
+2024-01-31 06:56:23.534 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.604 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-31 06:56:23.604 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.712 [info] > git rev-parse --show-toplevel [19ms]
+2024-01-31 06:56:23.712 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:23.839 [info] > git rev-parse --show-toplevel [38ms]
+2024-01-31 06:56:23.839 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:24.670 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-31 06:56:24.670 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:26.667 [info] > git rev-parse --show-toplevel [92ms]
+2024-01-31 06:56:26.667 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 06:56:28.107 [info] > git rev-parse --show-toplevel [17ms]
+2024-01-31 06:56:28.107 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 07:10:19.296 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-31 07:10:19.299 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 07:12:06.939 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-31 07:12:06.940 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 07:12:20.428 [info] > git rev-parse --show-toplevel [24ms]
+2024-01-31 07:12:20.430 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 07:14:25.323 [info] > git rev-parse --show-toplevel [7ms]
+2024-01-31 07:14:25.323 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project
+2024-01-31 07:14:33.620 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-31 07:14:33.620 [info] fatal: detected dubious ownership in repository at '/opt/odoo17/odoo-custom-addons/budget_project'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/odoo17/odoo-custom-addons/budget_project

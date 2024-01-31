@@ -5,8 +5,6 @@ from odoo.exceptions import UserError
 import logging,requests,datetime,hashlib,sys
 import json
 import logging
-
-_logging = logging.getLogger(__name__)
 BUDGET_STATE = [
     ('draft', 'New'),
         ('dept_confirm', 'Waiting Department Approval'),
@@ -161,7 +159,7 @@ class budget_project(models.Model):
         name = self.env['ir.sequence'].next_by_code('budget.project.form.seq')
         vals.update({
             'name': name,
-            'balance': vals['amount']
+            'balance': vals['balance']
             })
         res = super(budget_project, self).create(vals)
         return res
