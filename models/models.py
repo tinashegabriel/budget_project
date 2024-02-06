@@ -170,7 +170,7 @@ class budget_project(models.Model):
 class budget_expenses(models.Model):
     _inherit = 'hr.expense.sheet'
 
-    budget_id = fields.Many2one("budget.project", string="Budget", required=True,)
+    budget_id = fields.Many2one("budget.project", string="Budget",)
 
     def action_approve_expense_sheets(self):
         request_bugdet_validation = self.env['budget.project'].search([('id','=',self.budget_id.id)],order="id desc",limit=1)
